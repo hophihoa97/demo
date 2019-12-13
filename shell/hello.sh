@@ -1,0 +1,2 @@
+#!~/Documents/shell/
+echo "hello"

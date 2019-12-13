@@ -1,0 +1,7 @@
+ String userInput = input.next();
+ char grade = userInput.charAt(0);
+number=input.nextInt();
+
+Tham chieu cua doi tuong
+String s1 = new String("Hello, ");
+System.out.println(s1.length()); 

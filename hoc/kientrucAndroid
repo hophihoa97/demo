@@ -1,0 +1,6 @@
+Kiến truc Android
+- ứng dụng applications
+- application famework là thư viện phần mềm cung cấp cấu trúc và bộ xưowng xây dựng ứng dụng -bằng cách goij các API -Giao diện lập trình ưngs dụng application program interface
+-Libs + android runtime  Lib viết ằng C /C++ phát triển thông qua Android famework . Android Runtime cung cấp máy ảo Java
+- Hảrdware Abstraction layer  lớp trừu tượng phần cứng có thể được gọi từ kernel. Nămf giữa phần cứng của thiết bị và phần mềm chạy trên thiết bị đó
+-Kernel

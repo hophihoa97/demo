@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+using namespace std;
+double* maximum(double* a, int size)
+{
+  if (size == 0)
+    return NULL;
+  else {
+    double *tempMax;
+    double *ptr;
+    tempMax = a;
+    ptr = a+1;
+
+    for (int i = 0; i < (size-1); i++) {
+      if (*ptr > *tempMax)
+      tempMax = ptr;
+      ptr++;
+}
+    return tempMax;
+  }
+}
+
+int main(){
+	
+	double* a;
+	int size;
+	cout<<maximum(a,size);
+
+
+}

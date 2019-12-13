@@ -1,0 +1,15 @@
+
+
+-Bật nguồn đoạn mã boot ROM sẽ tải boot loader vào RAM thực thi bước tiếp theo
+-Boot loader để khởi tạo bộ nhớ ,thiết lập mạngj vaf tải kernel vào RAM 
+-Bôot loader thực hiện hai giai đoạn 
++Nó phát hiện thiết lâp Ram và tải chương trinh để thực hiện cho bước trên
++Thiết lập mạng.bộ nhớ ---thành phần yêu cầu để chạy kernel 
++Bootloader có thể tìm được ở:  
+<Android Source>\bootable\bootloader\legacy\usbloader
+---Androi kernel thiết lập mọi thứ cần thiết để hệ thống hoạt động.Kerel tìm kiếm hệ thống file gốc cho tiến trình INIT 
+---INIT là tiến trình cha của tất cả các tiến trình hệ thống khác -các tiến trình khác đều bắt đầu INIT
+=Tiến trình INIT sẽ tìm kiếm init.rc file kịch bản mô tả dịch vụ hệ thống hệ thống file và tham số thiết lập khác
+-Máy ảo Dalvilk tốn nhiều bộ nhớ và thời gian -->máy ảo Zugote giải quyết vấn dề này 
+-Sau đó thì bắt đầu System sevirce 
+-Khởi động hoàn tất

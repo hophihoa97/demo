@@ -1,0 +1,10 @@
+Biến số, hằng số và kiểu dữ liệu
+Toán tử và hàm toán học
+phát biểu điều kiện
+Sự dụng vòng lặp
+
+
+
+nano file.java
+javac file.java
+java helloclass

@@ -1,0 +1,22 @@
+import java.util.*;
+import java.util.Scanner;
+
+public class DoWhileEx
+{
+	public static void main(String[] args)
+	{
+	Scanner input=new Scanner(System.in);
+	int count,number=10;
+//	System.out.println("Nhap :");
+	number=input.nextInt();
+	count=0;
+	do {
+		System.out.println(count+"");
+		count++;
+		}
+	while(count<number);
+
+	}
+
+
+}
